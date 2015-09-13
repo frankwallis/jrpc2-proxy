@@ -1,0 +1,35 @@
+{
+  "name": "jrpc2-proxy",
+  "version": "0.2.1",
+  "description": "Auto-generate client-side proxy objects and functions for jrpc2",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankwallis/jrpc2-proxy.git"
+  },
+  "keywords": [
+    "jrpc2",
+    "ajax",
+    "rpc",
+    "thrift"
+  ],
+  "author": "Frank Wallis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankwallis/jrpc2-proxy/issues"
+  },
+  "homepage": "https://github.com/frankwallis/jrpc2-proxy#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "jrpc2": "^1.0.5",
+    "koa": "^1.0.0",
+    "koa-jrpc2": "frankwallis/koa-jrpc2",
+    "mocha": "^2.3.2"
+  }
+}
